@@ -10,10 +10,10 @@
 		33E91BB31FD1C8430030B2D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E91BB21FD1C8430030B2D0 /* AppDelegate.swift */; };
 		33E91BB51FD1C8430030B2D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E91BB41FD1C8430030B2D0 /* ViewController.swift */; };
 		33E91BB81FD1C8430030B2D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33E91BB61FD1C8430030B2D0 /* Main.storyboard */; };
-		33E91BBA1FD1C8430030B2D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33E91BB91FD1C8430030B2D0 /* Assets.xcassets */; };
 		33E91BBD1FD1C8430030B2D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33E91BBB1FD1C8430030B2D0 /* LaunchScreen.storyboard */; };
 		33E91BC81FD1C8430030B2D0 /* ExamenAlanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E91BC71FD1C8430030B2D0 /* ExamenAlanTests.swift */; };
 		33E91BD31FD1C8430030B2D0 /* ExamenAlanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E91BD21FD1C8430030B2D0 /* ExamenAlanUITests.swift */; };
+		33E91BE11FD1D2AF0030B2D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33E91BE01FD1D2AF0030B2D0 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		33E91BB21FD1C8430030B2D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33E91BB41FD1C8430030B2D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		33E91BB71FD1C8430030B2D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		33E91BB91FD1C8430030B2D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33E91BBC1FD1C8430030B2D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33E91BBE1FD1C8430030B2D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33E91BC31FD1C8430030B2D0 /* ExamenAlanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExamenAlanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +46,7 @@
 		33E91BCE1FD1C8430030B2D0 /* ExamenAlanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExamenAlanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33E91BD21FD1C8430030B2D0 /* ExamenAlanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamenAlanUITests.swift; sourceTree = "<group>"; };
 		33E91BD41FD1C8430030B2D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33E91BE01FD1D2AF0030B2D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +100,7 @@
 				33E91BB21FD1C8430030B2D0 /* AppDelegate.swift */,
 				33E91BB41FD1C8430030B2D0 /* ViewController.swift */,
 				33E91BB61FD1C8430030B2D0 /* Main.storyboard */,
-				33E91BB91FD1C8430030B2D0 /* Assets.xcassets */,
+				33E91BE01FD1D2AF0030B2D0 /* Assets.xcassets */,
 				33E91BBB1FD1C8430030B2D0 /* LaunchScreen.storyboard */,
 				33E91BBE1FD1C8430030B2D0 /* Info.plist */,
 			);
@@ -233,7 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33E91BBD1FD1C8430030B2D0 /* LaunchScreen.storyboard in Resources */,
-				33E91BBA1FD1C8430030B2D0 /* Assets.xcassets in Resources */,
+				33E91BE11FD1D2AF0030B2D0 /* Assets.xcassets in Resources */,
 				33E91BB81FD1C8430030B2D0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
