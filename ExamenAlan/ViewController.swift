@@ -60,10 +60,8 @@ UIPickerViewDelegate, UIPickerViewDataSource {
     //Obtenemos valor de cada columna
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         if component == 0 {
-            result.text = "hey"
             medidaUno = medidasA[row]
         } else{
-            result.text = "estoy en la dos"
             medidaDos = medidasB[row]
         }
         
@@ -136,15 +134,15 @@ UIPickerViewDelegate, UIPickerViewDataSource {
             }
             
         default:
-            print("eeeeeoo")
+            error()
         }
         
     }
     
     //Asignamos las unidades de medida
     func medidas() {
-        medidasA = ["metro","litro","kilo"]
-        medidasB = ["pies","yardas","pulgadas","pintas","cc","libras","onzas"]
+        medidasA = ["elige una opcion","metro","litro","kilo"]
+        medidasB = ["elige una opcion","pies","yardas","pulgadas","pintas","cc","libras","onzas"]
     }
     
     //En caso que no coincida la unidad asignamos la imagen
